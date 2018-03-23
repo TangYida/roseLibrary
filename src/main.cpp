@@ -1,6 +1,6 @@
 #include    "define.h"
 #include    "windowBase.h"
-
+#include    "cairo.h"
 
 int main()
 {
@@ -11,6 +11,6 @@ int main()
                   300,
                   systemDefault,
                   hInstance);
-    wb.windowShow();
+  //  wb.windowShow();
     return 0;
 }
